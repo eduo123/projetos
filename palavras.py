@@ -25,4 +25,4 @@ minhapalavra2 = [palavra for palavra in lista5 if 'g' in palavra if 'e' in palav
 palavra = [palavra for palavra in lista5 if contar_consoantes(palavra)==4]
 #print(len(palavra))
 #print (palavra)
-print( minhapalavra)
+print( minhapalavra,palavra)
