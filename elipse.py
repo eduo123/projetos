@@ -85,7 +85,7 @@ def girar(vetor,angulo):
     rot = np.array([[math.cos(angulo),-math.sin(angulo)],[math.sin(angulo),math.cos(angulo)]])
     return (np.dot(rot,vetor))
 
-t = 0
+t = 0.2
 p1 = np.array([0,0])
 running = False
 while(running):
